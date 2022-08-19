@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+header {
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  background-color: black;
+
+  align-items: center;
+  justify-content: space-between;
+
+  top: 0;
+  opacity: 0.96;
+}
+
+header nav {
+  display: flex;
+  list-style: none;
+  font-family: "Baloo Bhai 2", cursive;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+header img {
+  height: 2rem;
+}
+
+.left,
+nav {
+  gap: 0.5rem;
+  display: flex;
+  align-items: center;
+  padding: 4rem;
+  font-size: 1.3rem;
+}
+
+#bg-vid {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+/* article */
+article {
+  height: 50rem;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  font-size: 1.2rem;
+  gap: 1rem;
+}
+
+.container {
+  opacity: 0.8;
+  width: 80%;
+  height: 70%;
+  text-align: ;
+  background-color: black;
+  padding: 5rem 5rem;
+  border-radius: 1rem;
+  border: ;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+article h2 {
+  opacity: ;
+}
+
+article img {
+  height: 30rem;
+  border-radius: 1rem;
+}
+
+article a {
+  color: white;
+  text-decoration: none;
+}
+button {
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: maroon;
+  border: 3px solid white;
+}
+
+button:hover {
+  background-color: rgb(97, 2, 2);
+}
+
+/* section  */
+
+section {
+  background-image: linear-gradient(maroon, rgb(78, 1, 1));
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: "Silkscreen", cursive;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+  font-size: 20px;
+}
+
+.tab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tab img {
+  border: 2px solid white;
+  border-radius: 20px;
+  height: 300px;
+  width: 225px;
+  object-fit: cover;
+}
+
+/* footer  */
+
+footer {
+  flex-direction: row-reverse;
+  display: flex;
+  background-color: black;
+  font-family: "Baloo Bhai 2", cursive;
+  padding: 0 1rem;
+}
+li {
+  cursor: pointer;
+}
