@@ -1,4 +1,73 @@
+html,
+body {
+  overflow-x: hidden;
+}
+
+strong {
+  font-size: 1rem;
+}
+
+/* header  */
+
+header {
+  gap: 0;
+  padding: 0;
+  align-items: center;
+  
+}
+
+.left,
+nav {
+  padding: 0.6rem;
+  gap: 0.2rem;
+  
+}
+
+
+
+header img {
+  height: 1rem;
+}
+
+/* article  */
+
+article {
+  padding: 0;
+  font-size: 0.9rem;
+}
+
+.container {
+  height: 80%;
+
+  padding: 1rem 1rem;
+  flex-direction: column-reverse;
+  gap: 0;
+  border-radius: 30px;
+}
+
 article img {
-  height: 10rem;
-  border-radius: 1rem;
+  width: 99%;
+  height: 65%;
+}
+
+
+
+/* section  */
+
+section ul {
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+/* footer  */
+
+li {
+  font-size: 0.8rem;
+}
+
+ul {
+  gap: 0.8rem;
+  padding: 0 ;
+  margin: 0;
 }
